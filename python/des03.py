@@ -5,7 +5,7 @@ for andar in range(1, 21):
                 print(andar)
                 
 
-# Andar de Trás prar frente
+# Andar decrescente
 for andar in range(20, 0, -1):
         if andar != 13:
             print(andar)
