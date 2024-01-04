@@ -18,7 +18,7 @@ def calculadora(operacao, x, y):
     else:
         return 0
     
-calculo = calculadora('*', 10, 20)
+calculo = calculadora('', 10, 20)
 print(calculo)
 
 ## Ser chamada por um usuario
