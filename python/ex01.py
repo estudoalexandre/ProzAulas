@@ -15,5 +15,24 @@ def graus_fahrenheit(graus):
 
 temperatura_celsius = int(input("Digite a temperatura: "))
 temperatura_fahrenheit = graus_fahrenheit(temperatura_celsius)
-print(f"A temperatura em Fahrenheit é de: {temperatura_fahrenheit}")
+print(f"A temperatura em Fahrenheit é de: {temperatura_fahrenheit}\n")
+
+
+def lista_compras():
+    lista = []
+    print('Após terminar sua lista, apenas digite: "sair"')
+    while True:
+        item = input("Digite um item para adicionar a lista de compras: ")
+        if item == "sair":
+            break
+        else:
+            lista.append(item)
+    return lista
+
+
+lista_de_compras = lista_compras()
+print("Lista de compras: ")
+for item in lista_de_compras:
+    print("Produto:" + " - " + item)
+            
     
