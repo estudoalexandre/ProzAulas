@@ -38,12 +38,23 @@
     
 
 
-def salario_hora():
-    salario = float(input("Insirá o salario Mensal: "))
-    hora = float(input("Insira suas horas mensais: "))
+# def salario_hora():
+#     salario = float(input("Insirá o salario Mensal: "))
+#     hora = float(input("Insira suas horas mensais: "))
     
-    return salario / hora
+#     return salario / hora
 
 
-resultado = salario_hora()
-print(f"Salário por hora: R${resultado:.2f}")
+# resultado = salario_hora()
+# print(f"Salário por hora: R${resultado:.2f}")
+
+
+def atraso(atraso_entrada, saida):
+    entrada = atraso_entrada / 60
+    saida = saida / 60
+    
+    return entrada
+
+valor1 = float(input("Digite quantos minutos voce entrou atrasado: "))
+resultado_teste = atraso(valor1)
+print(f"Resultado do atraso de entrada: {resultado_teste:.2}")
