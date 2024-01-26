@@ -4,5 +4,15 @@ def palindromo(palavra):
     else:
         print('Essa palavra nao é um Palindromo')
 
-usuario_palavra = input("Digite uma palavra: ")
-palindromo(usuario_palavra)
+
+teste = True
+while teste:
+    usuario_palavra = input("Digite uma palavra (ou se deseja encerrar o teste digite: sair): ")
+    
+    if usuario_palavra == "sair":
+        teste = False
+    else:
+        palindromo(usuario_palavra)
+    
+
+    
