@@ -4,4 +4,5 @@ def palindromo(palavra):
     else:
         print('Essa palavra nao é um Palindromo')
 
-palindromo('radar')
+usuario_palavra = input("Digite uma palavra: ")
+palindromo(usuario_palavra)
